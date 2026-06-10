@@ -1,0 +1,314 @@
+You are a Senior Game Designer, Product Designer, UX Designer, Narrative Designer, and Technical Architect.
+
+I want to build a mobile game called **Sudoku Detective**.
+
+Your task is NOT to give me ideas.
+
+Your task is to create a complete, production-ready README.md for a playable MVP vertical slice that a developer can immediately start building.
+
+# Game Concept
+
+Sudoku Detective is a single-player offline mystery board game.
+
+The core gameplay loop is:
+
+Crime Scene
+→ Witness Interview
+→ Forensics Lab
+→ CCTV Investigation
+→ Case Analysis
+→ Courtroom Accusation
+
+Every completed Sudoku puzzle reveals clues.
+
+Players gradually eliminate suspects and solve the mystery.
+
+The goal is to make Sudoku feel like an investigation rather than a puzzle app.
+
+# Requirements
+
+Create a COMPLETE README.md containing:
+
+## 1. Executive Summary
+
+* Game vision
+* Core gameplay loop
+* Target audience
+* Unique selling proposition
+* Why this game is different from traditional Sudoku
+
+---
+
+## 2. Full MVP Scope
+
+Only build one playable case:
+
+CASE #001
+"The Midnight Laboratory"
+
+Include:
+
+* Victim
+* Crime
+* Suspects
+* Motives
+* Clues
+* Final culprit
+
+Create the entire story.
+
+---
+
+## 3. Gameplay Flow
+
+Provide step-by-step player journey:
+
+Main Menu
+→ Case Intro
+→ Investigation Board
+→ Crime Scene
+→ Witness
+→ Forensics
+→ CCTV
+→ Case Analysis
+→ Courtroom
+→ Case Closed
+
+Include exact screens.
+
+---
+
+## 4. UX Design
+
+For every screen provide:
+
+* Purpose
+* Layout
+* Components
+* User interactions
+* Empty states
+* Success states
+* Failure states
+
+Design for mobile portrait mode.
+
+---
+
+## 5. UI Design System
+
+Create:
+
+* Color palette
+* Typography system
+* Spacing system
+* Shadows
+* Border radius
+* Button hierarchy
+* Cards
+* Modals
+* HUD
+
+Style should feel like:
+
+Modern Detective
+Noir
+Premium Mobile Game
+2026 Quality
+
+Not casual or cartoonish.
+
+---
+
+## 6. Complete Screen Specifications
+
+Provide detailed wireframes for:
+
+* Splash Screen
+* Main Menu
+* Case Select
+* Case Intro
+* Investigation Board
+* Sudoku Gameplay
+* Evidence Reveal
+* Notebook
+* Suspect Board
+* Courtroom
+* Results Screen
+
+Use ASCII layouts.
+
+---
+
+## 7. Sudoku Gameplay Rules
+
+Design:
+
+* Puzzle generation
+* Difficulty progression
+* Mistake system
+* Hint system
+* Timer
+* Scoring
+* Rewards
+
+Explain exact mechanics.
+
+---
+
+## 8. Detective Mechanics
+
+Design:
+
+* Evidence system
+* Clue system
+* Suspect elimination
+* Notebook mechanics
+* Deduction mechanics
+* Accusation mechanics
+
+Explain exactly how players solve cases.
+
+---
+
+## 9. Data Models
+
+Provide TypeScript interfaces for:
+
+Case
+Suspect
+Evidence
+Clue
+Puzzle
+PlayerProgress
+InvestigationBoard
+Notebook
+
+Use production-quality architecture.
+
+---
+
+## 10. Folder Structure
+
+Generate scalable folder structure for:
+
+React Native + Expo
+
+Example:
+
+src/
+components/
+screens/
+features/
+hooks/
+services/
+assets/
+etc.
+
+Use feature-first architecture.
+
+---
+
+## 11. State Management
+
+Recommend:
+
+* Zustand
+  or
+* Redux Toolkit
+
+Explain why.
+
+Provide store structure.
+
+---
+
+## 12. Technical Architecture
+
+Explain:
+
+* Offline-first architecture
+* Local save system
+* Puzzle generation
+* Progress persistence
+* Performance considerations
+
+---
+
+## 13. Animations
+
+Design:
+
+* Evidence reveal animation
+* Puzzle completion animation
+* Notebook updates
+* Courtroom reveal
+* Case solved celebration
+
+Keep animations modern and premium.
+
+---
+
+## 14. Audio Design
+
+Provide:
+
+* Music style
+* Ambient sounds
+* Puzzle sounds
+* Investigation sounds
+* Success sounds
+
+---
+
+## 15. Monetization (Future)
+
+Do not design pay-to-win.
+
+Suggest:
+
+* Cosmetic themes
+* Detective skins
+* Premium case packs
+
+---
+
+## 16. MVP Roadmap
+
+Break implementation into phases:
+
+Phase 1
+Core Sudoku
+
+Phase 2
+Case System
+
+Phase 3
+Notebook
+
+Phase 4
+Courtroom
+
+Phase 5
+Polish
+
+Include estimated complexity.
+
+---
+
+## 17. Acceptance Criteria
+
+For every feature provide:
+
+Definition of Done.
+
+---
+
+## 18. Final Deliverable
+
+Output should be a professional README.md that could be handed directly to a development team.
+
+The document must be extremely detailed, polished, realistic, and implementation-focused.
+
+Avoid vague descriptions.
+
+Think like a Lead Game Designer preparing documentation for a production team.
