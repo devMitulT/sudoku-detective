@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd /Users/akaay/Desktop/interview/Games && ls -la && echo \"--- looking for sudoku world ---\" && ls -d */ | grep -i sudoku)",
+      "Read(//Users/akaay/Desktop/interview/Games/**)",
+      "Bash(rm -rf /Users/akaay/Desktop/interview/Games/sudoku-detective/src)",
+      "Bash(cp -R /Users/akaay/Desktop/interview/Games/sudokuOwrld/src /Users/akaay/Desktop/interview/Games/sudoku-detective/src)",
+      "Bash(cp -R /Users/akaay/Desktop/interview/Games/sudokuOwrld/assets/. /Users/akaay/Desktop/interview/Games/sudoku-detective/assets/)",
+      "Bash(npx playwright *)",
+      "Read(//Applications/Google Chrome.app/**)",
+      "Bash(CI=1 npx expo start --web --port 8090 > /tmp/expo-sd.log 2>&1 & *)",
+      "Read(//Users/akaay/.npm/_npx/9833c18b2d85bc59/node_modules/playwright/**)",
+      "Bash(sed -i '' 's#/Users/akaay/Desktop/interview/Games/sudoku-detective/node_modules/playwright/index.js#__TRACKED_VAR__/index.js#' /tmp/shot.mjs)",
+      "Bash(node /tmp/shot.mjs)",
+      "Bash(kill 63206)",
+      "Bash(pkill -f \"expo start --web --port 9124\")",
+      "Bash(awk '{print $2, $11, $12, $13, $14}')",
+      "Bash(kill 61120)",
+      "Bash(awk '{print \"still running:\",$2}')",
+      "Bash(kill 68404)",
+      "Bash(pkill -f \"expo start --web --port 9126\")"
+    ],
+    "additionalDirectories": [
+      "/tmp"
+    ]
+  }
+}
