@@ -26,7 +26,8 @@
       "Bash(md5 -q)",
       "Bash(git mv *)",
       "Bash(npx expo *)",
-      "Bash(ls -la dist)"
+      "Bash(ls -la dist)",
+      "Bash(git rm *)"
     ],
     "additionalDirectories": [
       "/tmp"
