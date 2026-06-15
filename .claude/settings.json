@@ -23,7 +23,8 @@
       "Bash(git check-ignore *)",
       "Bash(git config *)",
       "Bash(md5 -q src/components/Button.tsx)",
-      "Bash(md5 -q)"
+      "Bash(md5 -q)",
+      "Bash(git mv *)"
     ],
     "additionalDirectories": [
       "/tmp"
