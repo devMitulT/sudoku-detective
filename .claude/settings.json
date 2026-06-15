@@ -18,7 +18,12 @@
       "Bash(kill 61120)",
       "Bash(awk '{print \"still running:\",$2}')",
       "Bash(kill 68404)",
-      "Bash(pkill -f \"expo start --web --port 9126\")"
+      "Bash(pkill -f \"expo start --web --port 9126\")",
+      "Bash(gh --version)",
+      "Bash(git check-ignore *)",
+      "Bash(git config *)",
+      "Bash(md5 -q src/components/Button.tsx)",
+      "Bash(md5 -q)"
     ],
     "additionalDirectories": [
       "/tmp"
